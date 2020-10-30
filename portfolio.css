@@ -1,0 +1,63 @@
+:root{
+	--navHeight:70px;
+}
+*{
+	margin:0;
+	padding:0;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+a{
+	text-decoration:initial;
+}
+section{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:40px;
+}
+#welcome-section{
+	height:100vh;
+	background-color:hsl(120, 100%, 85%);
+	color:hsl(329, 100%, 60%);
+}
+#projects{
+	background-color:hsl(240, 100%, 70%);
+	height:100vh;
+}
+.project-tile{
+	border: 20px solid black;
+	border-radius:30px;
+	color:white;
+	background-color:hsl(240, 100%, 20%);
+	padding:200px 120px 200px 120px ;
+	margin:40px;
+}
+#contact{
+	background-color:black;
+	color:white;
+}
+#contact a{
+	background-color:black;
+	color:white;
+	margin:30px;
+}
+#contact a:hover{
+	color:hsl(329, 100%, 40%)
+}
+nav{
+	position:fixed;
+	width:100%;
+	height:var(--navHeight);
+	background-color:hsl(120, 100%, 95%);
+	display:flex;
+	justify-content:flex-end;
+}
+nav a{
+	font-size:25px;
+	margin:auto 20 auto 20;
+	text-decoration:initial;
+	color:black;
+}
+nav a:hover{
+	color:hsl(329, 100%, 60%);
+}
