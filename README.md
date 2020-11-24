@@ -20,7 +20,8 @@ User Story #10: The height of the welcome section should be equal to the height 
 User Story #11: The navbar should always be at the top of the viewport.<br />
 
 
-I left the colors horrible lol
-The images are google drive links so that it works local and in codepen where I submitted it to FCC
-
-For some reason User Story #9 (One media query) didn't work on local, only on codepen. Not sure why
+I left the colors horrible lol<br />
+The images are google drive links so that it works local and in codepen where I submitted it to FCC<br />
+<br />
+For some reason User Story #9 (One media query) didn't work on local, only on codepen. Not sure why<br />
+I never used any JS
