@@ -1,3 +1,24 @@
+@media (max-width: 1364px) {
+	#projects{
+		display:flex;
+		justify-content:flex-end;
+		align-items:center;
+		flex-direction:column;
+		height:auto;
+	}
+	.project-tile{
+		justify-content:flex-end;
+		border: 10px solid black;
+		border-radius:30px;
+		width:600px;
+		height:300px;
+		padding:0;
+	}	
+	img{
+		width:auto;
+		height:50%;
+	}
+}
 :root{
 	--navHeight:70px;
 }
@@ -25,12 +46,20 @@ section{
 	height:100vh;
 }
 .project-tile{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	flex-direction:column;
+	font-size:.5em;
+	text-align:center;
 	border: 20px solid black;
 	border-radius:30px;
 	color:white;
 	background-color:hsl(240, 100%, 20%);
-	padding:200px 120px 200px 120px ;
-	margin:40px;
+	width:400px;
+	height:500px;
+	padding-bottom:3.5em;
+	margin:10px;
 }
 #contact{
 	background-color:black;
@@ -61,3 +90,8 @@ nav a{
 nav a:hover{
 	color:hsl(329, 100%, 60%);
 }
+img{
+	width:100%;
+	height:auto;
+}
+
